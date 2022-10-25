@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primeira-color:white;
+    --segunda-color: #000;
+}
+
+
+
+body {
+    font-family: 'helvetica' sans-serif;
+    height: 100vh;
+    background-color: #ebebeb;
+}

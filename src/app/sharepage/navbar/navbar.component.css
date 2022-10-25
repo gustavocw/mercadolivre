@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@media only screen and (max-width: 600px) {
+
+    #search{
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    #search i{
+        position: relative;
+        top: 0.1px;
+    }
+
+    #search button{
+        height: 34px;
+        margin-bottom: 2.9px;
+    }
+
+    #cep, #cep span{
+        display: inline;
+        font-size: 14px;
+        margin-bottom: 20px;
+        position: relative;
+        left: 0.2px;
+    }
+
+    #cep i{
+        font-size: 30px;
+        margin-left: 25px;
+    }
+    .navbar-toggler-icon{
+        visibility: hidden;
+        border: none;
+        display: none;
+    }
+
+
+    .nl1{
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .nl2, .nl3, .nl4{
+        display: none;
+    }
+
+    .navbar-brand {
+        position: relative;
+        margin-top: 40px;
+    }
+
+    #janelaModal, .modal, .modal-dialog{
+        position: relative;
+        bottom: 200px;
+        z-index: initial;
+    }
+}
+
+
+
+/*  CSS FULL */
+
+
+#cep{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    right: 100px;
+    top: 20px;
+    font-size: 12px;
+}
+
+#cep i{
+    position: relative;
+    top: 2px;
+    right: 4px;
+    cursor: pointer;
+}
+
+#cep:hover{
+    color: rgba(24, 24, 24, 0.842);
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link.active-link{
+    color: var(--segunda-color);
+}
+
+#nameIcon {
+    margin-left: 37px;
+    width: 20vh;
+    position: relative;
+    bottom: 11px;
+}
+
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.8;
+}
+
+.navbar{
+    background-color: #fbec5d;
+}
+
+.navbar-nav{
+    color: #000;
+    height: 85px;
+}
+
+#navbarNav{
+    font-size: 13.5px;
+    display: flex;
+}
+
+#navbarNav li a{
+    color: #000;
+    position: relative;
+    top: 52px;
+}
+
+
+#search{
+    width: 90vh;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#search button {
+    height: 37.6px;
+    position: relative;
+    margin-bottom: 2.5px;
+}
+
+#search ::placeholder{
+    opacity: 0.5;
+    font-family: 'helvetica';
+}
+
+.btns{
+    height: 40px;
+    position: relative;
+    top: 1.9px;
+}
+
+.bi{
+    font-size: 20px;
+    position: relative;
+    bottom: 6px;
+}
+
+.mid li{
+    display: inline-block;
+    position: relative;
+    right: 100vh;
+}
+
+.user{
+    color: #fff;
+    font-size: 32px;
+    position: relative;
+    bottom: 15px;
+}
+
+
+/* MODAL */
+
+
+
+#janelaModal{
+    margin-top: 20px;
+    align-items: center;
+    position: relative;
+}
+
+
+.modal-header h3{
+    font-size: 18px;
+    padding: 40px;
+}
+.modal-header p{
+    font-size: 15px;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.form-control-modal{
+    padding: 22px;
+}
+.form-control-modal a{
+    padding: 30px;
+    font-size: 12px;
+}
+.form-control-modal input{
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.modal-header h3{
+    font-size: 18px;
+}
+.modal-header{
+    display: block;
+    padding: 13px;
+}
+.form-control-modal button{
+    padding: 12px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 119, 255);
+    color: #fff;
+
+}
+.form-control-modal a{
+text-decoration: none;
+color: rgb(0, 105, 241);
+font-size: 16px;
+
+}
+
+.btn-close{
+    position: relative;
+    bottom: 170px;
+    left: 27pc;
+}
+
+#cep button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}

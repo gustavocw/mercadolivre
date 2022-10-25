@@ -1,0 +1,259 @@
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 763px) {
+     
+
+    #slider-container, .mab img{
+        display: none;
+    }
+
+    .navbar{
+        visibility: hidden;
+    }
+    .mab img{
+        width: 45pc;
+
+        right: 100px;
+    }
+    #ps2{
+        margin-top: 0;
+    }
+
+    .container-card{
+        width: 20pc;
+        height: 20px;
+        display: block;
+        justify-content: center;
+        width: 100%;
+        margin-left: 12px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .hbg{
+        display: none;
+        
+    }
+
+    .ps3{
+        visibility: hidden;
+        display: none;
+    }
+
+    .h11{
+        display: none;
+    }
+
+    .textmid{
+        margin-right: 80px;
+        text-align: center;
+    }
+    
+
+
+
+
+
+
+}
+
+.card-text{
+    color: #00b13b;
+}
+
+.textmid{
+    color: rgb(179, 178, 178);
+    margin-left: 100px;
+    font-family: 'helvetica' sans-serif;
+    font-size: 32px;
+}
+
+#ps2{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+/* SLIDE */
+*{
+    padding: 0;
+}
+.container, .mab{
+    position: relative;
+    bottom: 12px;
+    max-width: 1002vh;
+    display: block;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+.carousel-indicators button {
+    visibility: hidden;
+}
+
+/* INFORMAÇÕES ADICIONAIS */
+
+.payment-data-section{
+    display: inline-flex;
+    background: #fff;
+    height: 95px;
+    position: relative;
+    width: 300px;
+    bottom: 9px;
+    left: 4pc;
+    border-radius: 2px;
+    margin-left: 3px;
+}
+
+.title{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 2px;
+    left: 8px;
+    flex: 3;
+    border-left: 2px solid rgb(19, 95, 238);
+    padding-left: 10px;
+}
+
+
+.dois{
+    position: relative;
+    top: 2px;
+}
+
+.t2{
+    border-left: none;
+    font-size: 15px;
+}
+.t2 i{
+    color: #4083ff;
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.t3{
+    font-size: 17px;
+    border-left: none;
+    position: relative;
+}
+
+#icont{
+    width: 60px;
+}
+
+.tres{
+    position: relative;
+    top: 43px;
+}
+
+.t4{
+    border-left: none;
+}
+
+#icont4{
+    width: 60px;
+}
+
+.quatro{
+    position: relative;
+    top: 43px;
+}
+
+.t4 i {
+    margin-left: 130px;
+    color: rgb(0, 162, 255);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+/* CARDS */
+
+
+
+.row{
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.row col{
+    margin-left: 10px;
+    
+}
+
+/* CARD */
+
+.container-card{
+    height: 500px;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.247);
+    transition: 0.5s;
+    
+}
+.card:hover .card-text{
+    display: block;
+    width: 250px;
+    height: 70px;
+    transition: 1s;
+}
+.card-text{
+    display: none;
+}
+
+.card-title, .card-text{
+    font-family: 'helvetica';
+    margin-left: 15px;
+}
+
+.card{
+    margin-bottom: 250px;
+    overflow: hidden;
+}
+
+/* CARD 1 */
+
+
+.container-card1{
+    height: 500px;
+}
+
+.card1:hover{
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.247);
+    transition: 0.5s;
+    
+}
+.card1:hover .card-text1{
+    display: block;
+    width: 250px;
+    height: 70px;
+    transition: 1s;
+}
+.card-text1{
+    display: none;
+}
+
+.card-title1, .card-text1{
+    font-family: 'helvetica';
+    margin-left: 15px;
+}
+
+.card1{
+    margin-bottom: 250px;
+    overflow: hidden;
+}
+
